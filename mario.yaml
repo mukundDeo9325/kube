@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap # Used to store non sensitive info like username,url etc
+metadata:
+  name: my-vars
+data:
+  DB_URL: "mydbinstance.c6c8dfghilnt.us-east-1.rds.amazonaws.com"
+  DB_USERNAME: "admin"
+  
